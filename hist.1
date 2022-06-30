@@ -1,0 +1,60 @@
+.TH HIST "1" "18.04.2022" "1.0" "User scripts"
+
+.SH NAME
+.B hist
+\- view your browsing history
+
+.SH SYNOPSIS
+.BR hist
+.I [SHORT-OPTION] ... 
+
+.SH DESCRIPTION
+.PP
+.B hist
+is a script that enables you to check Firefox and Chromium browsing history. It uses sqlite3 and zenity.
+.PP
+In hist you can choose searched browsers. Browser must be turned off.
+.TP
+Browsing has 3 modes:
+
+\[bu] view all records
+
+\[bu] view records which contain all phrases
+
+\[bu] view records which contain at least one phrase
+.PP
+hist has possibility to save result to file with the given path
+
+.SH OPTIONS
+.TP
+\fB\-h\fR
+display this help and exit
+.TP
+\fB\-v\fR
+output version information and exit
+.TP
+\fB\-f\fR
+browse history in Mozilla firefox
+.TP
+\fB\-c\fR
+browse history in Chromium
+.TP
+\fB\-p\fR=\fI\PHRASES\fR
+search for these phrases (need to specify how - without that phrases don't matter)
+
+
+.SH AUTHOR
+.B Slawomir  
+.I Sladamos 
+.B Adamowicz
+
+.SH BUGS
+Report any bugs to 
+.RI <sladamo@wp.pl>
+
+.SH SEE ALSO
+.B sqlite3
+(1)
+.B zenity
+(1)
+

@@ -1,18 +1,18 @@
 # Hist - browser history viewer
-Simple shell script with manual for that to pass a study subject - "Operative Systems". It works with Firefox and Chromium - you can choose which you want.
+A simple shell script with a manual written for my undergraduate course - "Operating Systems". You can use it to browse history in Firefox and Chromium.
 ## Functionalities
-- Display all time browsing history: date of browsing + URL address
-- Add additional phrases and view records which:
-	1. contain all of them
-	2. contain at least one of them
-- Save displayed history to the file with the given path (./ and ~/ works)
-:warning: If history is too big it can still be viewed by saving it to the file.
+- Display the entire browsing history, each record consists of a date of search and a URL address
+- Add additional phrases and view records containing:
+	1. all of the phrases
+	2. at least one phrase
+- Save the displayed history to a file with a given path (both ./ and ~/ work)
+<br/>:warning: If the history has too many records, it can be viewed by saving the records to a file.
 ## Optional arguments
 - -f : add Firefox to viewed browsers
 - -c : add Chromium to viewed browsers
-- -p=PHRASES : add specific phrases separated by **^**
+- -p=PHRASES : add specific phrases separated by **'^'**
 ## Used programs
 `zenity` `sqlite3`
 ## Your ideas
-:envelope_with_arrow: If you suggest add something interesting mail to : ***sladamo@wp.pl*** :envelope_with_arrow:
+:envelope_with_arrow: If you have any ideas for new features, feel free to send them to : ***sladamo@wp.pl*** :envelope_with_arrow:
 

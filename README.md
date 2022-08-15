@@ -14,5 +14,5 @@ A simple shell script with a manual written for my undergraduate course - "Opera
 ## Used programs
 `zenity` `sqlite3`
 ## Your ideas
-:envelope_with_arrow: If you have any ideas for new features, feel free to send them to create a pull request.
+:envelope_with_arrow: If you have any ideas for new features, feel free to create a pull request or issue.
 
